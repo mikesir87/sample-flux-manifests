@@ -4,8 +4,9 @@ metadata:
   name: sample
 spec:
   replicas: 2
-  matchLabels:
-    app: cats
+  selector:
+    matchLabels:
+      app: cats
   template:
     metadata:
       labels:
