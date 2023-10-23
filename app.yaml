@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: app
-          image: mikesir87/cats:3.0
+          image: mikesir87/cats:1.0
